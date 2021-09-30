@@ -1,0 +1,162 @@
+body{
+  background-color: #252525;
+  text-align: center;
+  margin: 0;
+}
+
+.headerbox{
+  position: relative;
+  background-color: #af0404;
+  margin-bottom: 20px;
+}
+
+.headerbox2{
+  position: relative;
+  background-image: url(images/pattern.jpg);
+  margin-bottom: 20px;
+}
+
+.fixit{
+  position: fixed;
+  width: 150px;
+  height: 300px;
+  background-color: #ffac41;
+  box-shadow: white 5px 5px;
+}
+
+.container{
+  width: 250px;
+  height: 400px;
+  position: absolute;
+  left: 200px;
+  background-color: #ffac41;
+  padding: 5px;
+  padding-top: 15px;
+  box-shadow: white 5px 5px;
+}
+
+.container2{
+  width: 250px;
+  height: 400px;
+  position: absolute;
+  right: 200px;
+  background-color: #ffac41;
+  padding: 5px;
+  padding-top: 15px;
+  box-shadow: white 5px 5px;
+}
+
+.container3{
+  width: 250px;
+  height: 400px;
+  position: absolute;
+  left: 505px;
+  background-color: #ffac41;
+  padding: 5px;
+  padding-top: 15px;
+  box-shadow: white 5px 5px;
+}
+
+.container4{
+  width: 250px;
+  height: 400px;
+  position: absolute;
+  left: 505px;
+  top: 610px;
+  background-color: #ffac41;
+  padding: 5px;
+  padding-top: 15px;
+  box-shadow: white 5px 5px;
+}
+
+.footerbox{
+  position: relative;
+  background-color: #af0404;
+  top: 910px;
+  padding: 10px;
+}
+
+.gorilla{
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+}
+
+.gorilla2{
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.walter{
+  width: 200px;
+  height: 200px;
+  box-shadow: 5px 5px;
+  background-color: #f8eeb4;
+  border-radius: 30%;
+  padding: 10px;
+}
+
+.punisher{
+  width: 200px;
+  height: 200px;
+  box-shadow: 5px 5px;
+  background-color: #f8eeb4;
+  border-radius: 30%;
+  padding: 10px;
+}
+
+.got{
+  width: 200px;
+  height: 200px;
+  box-shadow: 5px 5px;
+  background-color: #f8eeb4;
+  border-radius: 30%;
+  padding: 10px;
+}
+
+.tower{
+  width: 200px;
+  height: 200px;
+  box-shadow: 5px 5px;
+  background-color: #f8eeb4;
+  border-radius: 30%;
+  padding: 10px;
+}
+
+.heading{
+  font-family: 'Sacramento', cursive;
+  padding-top: 10px;
+  margin: 0 auto auto;
+  font-size: 50px;
+  color: white;
+}
+
+.discrip{
+  font-family: 'Cinzel', serif;
+  color: white;
+}
+
+.para{
+  padding-top: 10px;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto auto;
+  color: white;
+  text-align: left;
+  padding-left: 12px;
+}
+
+.list{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-align: left;
+  text-shadow: 5px;
+}
+
+.list:hover{
+  color:#af0404;
+}

@@ -23,7 +23,8 @@
 //////////////////////////////////////Time complexity: O(n)///////////////////////////////////////////////
 public class Equilibriumindex{
     public static void main(String[] args) {
-        int sum=0,leftsum=0;
+       try{ 
+           int sum=0,leftsum=0;
         int arr[]={-7, 2, 5, 2, -4, 3, 1};
         int n=arr.length;
         for(int i=0;i<n;i++){
@@ -37,5 +38,6 @@ public class Equilibriumindex{
             }
             leftsum=leftsum+arr[i];
         }
+         }catch(Exception e){e.printStackTrace();}
     }
 }
